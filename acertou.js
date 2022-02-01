@@ -38,7 +38,7 @@ let tela = document.querySelector('canvas');
             let y = evento.pageY - tela.offsetTop;
 
             if((x > xAleatorio-10)&& (x < xAleatorio + 10) && (y > yAleatorio - 10) && (y < yAleatorio + 10)){
-                alert("ACERTOU, MISERAVI! (Se for o Jeferson, pense Acertou Irmão)");
+                alert("ACERTOU, MISERAVI!");
             }
         }
         tela.onclick = dispara;
